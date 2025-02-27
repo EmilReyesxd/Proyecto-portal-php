@@ -1,0 +1,66 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding-top: 70px;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.navbar {
+    background-color: #007bff !important;
+}
+
+.navbar-brand, .nav-link {
+    color: white !important;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Estilos para las API */
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+/* Estilos para respuestas de la API */
+.resultado {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+/* Diferentes colores según API */
+.masculino {
+    color: blue;
+}
+
+.femenino {
+    color: pink;
+}
+
+.joven {
+    color: green;
+}
+
+.adulto {
+    color: orange;
+}
+
+.anciano {
+    color: gray;
+}
